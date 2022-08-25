@@ -1,14 +1,14 @@
 SELECT 
     *
 FROM
-    employee_upload
+    employees
 WHERE
     first_name = 'Anjali';
 
 SELECT 
     *
 FROM
-    employee_upload
+    employees
 WHERE
     first_name = 'Arjun';
     
@@ -22,7 +22,7 @@ WHERE
 SELECT 
     *
 FROM
-    employee_upload
+    employees
 WHERE
     gender = 'F' AND (first_name = 'Aruna' OR first_name='Anjali');
     
@@ -42,7 +42,7 @@ WHERE
 SELECT 
     *
 FROM
-    employees_upload
+    employees
 WHERE
     emp_no NOT BETWEEN '10003' AND '10009';
 
